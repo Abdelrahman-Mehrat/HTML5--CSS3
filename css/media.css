@@ -1,0 +1,228 @@
+@media  (max-width: 992px) {
+    .special__wrapper{
+        flex-basis: 48%;
+        margin-bottom: 20px;
+                 
+    }
+    .nav__links__ul li {padding-top: 10px;}
+    .special__body{
+        margin-bottom: 60px;
+        justify-content: space-around;
+    }
+    /* propositions */
+    .propsitions{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .propsitions__icons{
+        justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    }
+    .propsitions >figure{
+        width: 60%;
+    }
+    /* screenshot */
+    .screenshots__slider{
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: space-evenly;
+    }
+    .screenshots__slider figure{
+        width: 26%;
+    }
+    .screenshots__slider .big{
+        display: none;
+    }
+    /* pricing */
+    .pricing{
+        padding-top: 12px;
+        padding-bottom: 20px;
+    }
+    .pricing__body{
+        gap: 10px;
+    }
+    .pricing__wrapper{
+        margin-bottom: 20px;
+    }
+    .membership .container{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .membership .btn{margin-top: 1rem;}
+    /* team */
+    .team .container{
+        justify-content: center;
+        gap: 3rem;
+    }
+    .team__wrapper{
+        width: 40%;
+        margin-bottom: 1rem;
+    }
+    /* footer */
+    .footer__form .btn{
+        width: 50%;
+    }
+ 
+}
+@media (max-width:768px) {
+    .main__header {
+        min-height: 90vh;
+    }
+    .shadow{font-size: 11rem;}
+    .nav__links__ul{
+        display: none;   
+    }
+    .header__text {
+        width: 70%;
+    }
+    .header__text h1 {
+        font-size: 4rem;
+    }
+    .header__form {
+        margin-top: 3rem;
+    }
+    /* propsitions */
+    .propsitions{
+        margin-top: 0px;
+    }
+    /* status */
+    .status__wrapper{
+        justify-content: flex-start;
+    }
+    
+}
+@media  (max-width: 576px) {
+    
+    .nav__links__btn,.main__nav__logo{
+        width: auto;
+    }
+    
+    .nav__links__ul{
+        display: none;   
+    }
+    /* header */
+    .shadow{
+        bottom: 50%;
+        font-size: 10rem;
+    }
+    .header__text{
+        margin-top: 0px;
+        width: 75%;
+        margin-bottom: 4rem;
+    }
+    .header__text h1{
+        font-size: 3rem;
+    }
+    .main__header .phone{ 
+        width: 50%;
+    bottom: -63px;
+    right: 0;
+    }
+    .header__form{
+        margin-top: 3rem;
+    }
+    .header__form > button{
+        width: 50%;
+        margin-top: 1rem;
+    }
+    .header__form > input{
+        width: 60%;
+    }
+    /* special */
+    .special__body{
+        flex-direction: column;
+    }
+    .special__wrapper{
+        flex-basis: 90%;
+    }
+    /* propsitions */
+    
+    .propsitions__icons{
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    /* status */
+    .status .container{
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    /* screenShot */
+    .screenshots__slider figure{
+        width: 50%;
+    }
+    .screenshots__slider .small{
+        display: none;
+    }
+    .screenshots__slider .arrow__scale{
+        position: relative;
+    }
+    .screenshots__slider .arrow__scale::before{
+        content: "<";
+    color: #696969;
+    font-size: 3rem;
+    bottom: -45px;
+    left: -50px;
+    position: absolute;
+    cursor: pointer;
+    }
+   
+    .screenshots__slider .arrow__scale::after{
+        content: ">";
+    color: #696969;
+    font-size: 3rem;
+    bottom: -45px;
+    right: -50px;
+    position: absolute;
+    cursor: pointer;
+    }
+    /* comments */
+    .comments  .arrow{ display: none;}
+    /* team */
+    .team .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .team__wrapper{
+        width: 85%;
+    }
+    
+    /* propositions */
+    .propsitions__icons .btn{
+        gap: 5px;
+        margin-right: 5px;
+        }
+        .propsitions__icons i{
+            margin-left: 5px;
+        }
+        /* footer */
+        .footer .container{
+            flex-direction: column;
+            align-items: center;
+        
+        }
+        .footer__inTouch h2{
+            text-align: center;
+        }
+        .footer__inTouch .hr:after{
+            margin: 10px;
+            width: 15%;        
+
+        }
+        .footer__inTouch{
+            width: 80%;
+            margin-bottom: 2rem;
+        }
+        .footer__form{
+            width: 80%;
+        }
+        .footer__form .btn{
+            align-self: center;
+            width: 50%;
+        }
+}
