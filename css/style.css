@@ -189,11 +189,11 @@ ul{list-style: none;}
     font-size: 1.5rem;
     color: #000000;
 }
-.special__wrapper:hover > i{
+.special__wrapper:hover > svg{
     color: #ffffff;
 }
 
-.special__wrapper > i{
+.special__wrapper > svg{
     margin-bottom: 2rem;
     color:#fb397d
 }
@@ -252,7 +252,7 @@ ul{list-style: none;}
     display: block;
 }
 .propsitions__icons .btn .lower{font-size: 1rem;}
-.propsitions__icons i{margin-left: 10px;}
+.propsitions__icons svg{margin-left: 10px;}
 /* end propsitions */
 /* start features */
 .features{margin-top: 4rem;}
@@ -273,7 +273,7 @@ ul{list-style: none;}
     min-width: 300px;
     padding: 1.5rem 1rem;
 }
-.features__wrapper i{
+.features__wrapper svg{
     color:var(--red);
     margin-right: 5px;
 }
@@ -542,7 +542,7 @@ ul{list-style: none;}
     transition: all 0.6s;
 }
 .overlay:hover {opacity: 1;}
-.overlay i {
+.overlay path {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 10px;
